@@ -66,7 +66,8 @@ import {reactive} from 'vue';
     }
 
     const share = () => {
-        navigator.clipboard.writeText(props.cardData.url);
+        setTimeout(async()=>console.log(
+    await navigator.clipboard.writeText(props.cardData.url)), 4000)
         alert ("Image link copied to clipboard!");
     }
 </script>

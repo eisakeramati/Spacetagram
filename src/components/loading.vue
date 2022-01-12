@@ -30,7 +30,7 @@
     display: block;
     width: 25%;
     height: 25%;
-    background-color: #202A44;
+    background-color: #D3D3D3;
     border-radius: 100%;
     animation: sk-chase-dot-before 2.0s infinite ease-in-out both; 
 }
