@@ -3,6 +3,7 @@
     s p a c e t a g r a m
     </h1>
     <h1 class="flex justify-center text-center text-xl text-gray-700 font-text dark: text-gray-400"> spacetagram provides daily space images. like the posts and read the info, and share images!</h1>
+        <h1 class="flex justify-center text-center text-xl text-gray-700 font-text mt-2 dark: text-gray-400">Toggle between dark and light mode and bottom of can provide more posts!</h1>
     <h1 class="flex justify-center text-center text-xl text-gray-700 font-text mt-2 dark: text-gray-400">Designed by Eisa Keramati as a Vue3 passion project:</h1>
     <div v-if="props.darkOn == 'dark'">
         <span class="flex gap-6 justify-center mt-6 mb-6">
